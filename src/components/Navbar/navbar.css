@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.ullist{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    justify-content: center;
+}
+
+.ullist li{
+    background-color: rgb(109, 109, 109);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    color: white;
+}
+.ullist li:hover{
+    background-color: black;
+}
+.active{
+    background-color: rgb(211, 210, 210);
+    
+}
+.link{
+    /* background-color: rgb(109, 109, 109);  */
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
